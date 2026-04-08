@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Activities - Bokamoso Hoof Adventure Park</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <h1>Bokamoso Hoof Adventure Park</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="products.html">Activities</a></li>
+      <li><a href="business.html">Business</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <h2>Activities and Prices</h2>
+  <p>All prices are in Lesotho Maloti (LSL). Prices include safety equipment.</p>
+
+  <section>
+    <h2>Activity Price Table</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Activity</th>
+          <th>Price (LSL)</th>
+          <th>Duration</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1-Hour Trail Ride</td>
+          <td>M150</td>
+          <td>1 hour</td>
+          <td>Guided ride on scenic trails. Good for beginners.</td>
+        </tr>
+        <tr>
+          <td>2-Hour Trail Ride</td>
+          <td>M250</td>
+          <td>2 hours</td>
+          <td>Longer ride with water break. For ages 12+.</td>
+        </tr>
+        <tr>
+          <td>Half-Day Trail Ride</td>
+          <td>M450</td>
+          <td>4 hours</td>
+          <td>Includes snack break. Advanced booking required.</td>
+        </tr>
+        <tr>
+          <td>Pony Ride (Children)</td>
+          <td>M60</td>
+          <td>15 minutes</td>
+          <td>For children under 12. Handler leads the pony.</td>
+        </tr>
+        <tr>
+          <td>Horse Riding Lesson</td>
+          <td>M200</td>
+          <td>1 hour</td>
+          <td>Learn basics from professional instructor.</td>
+        </tr>
+        <tr>
+          <td>Birthday Party Package</td>
+          <td>M800</td>
+          <td>2-3 hours</td>
+          <td>Up to 8 children. Includes rides, snacks, gift.</td>
+        </tr>
+        <tr>
+          <td>School Group (per child)</td>
+          <td>M100</td>
+          <td>1 hour</td>
+          <td>Educational trip. Minimum 15 children.</td>
+        </tr>
+        <tr>
+          <td>Photography Session</td>
+          <td>M300</td>
+          <td>30 minutes</td>
+          <td>Professional photos with horses. Digital copy included.</td>
+        </tr>
+      </tbody>
+    </table>
+    <p><strong>Note:</strong> Group discount of 10% available for 10 or more people.</p>
+  </section>
+
+  <section>
+    <h2>Booking Form</h2>
+    <p>Complete this form and click Send. We will reply within 24 hours to confirm your booking.</p>
+
+    <form action="mailto:info@bokamosohoof.com" method="post" enctype="text/plain">
+      <label>Full Name</label>
+      <input type="text" name="Name" required>
+
+      <label>Phone Number / WhatsApp</label>
+      <input type="tel" name="Phone" required>
+
+      <label>Email Address</label>
+      <input type="email" name="Email" required>
+
+      <label>Select Activity</label>
+      <select name="Activity">
+        <option>1-Hour Trail Ride - M150</option>
+        <option>2-Hour Trail Ride - M250</option>
+        <option>Half-Day Trail Ride - M450</option>
+        <option>Pony Ride - M60</option>
+        <option>Horse Riding Lesson - M200</option>
+        <option>Birthday Party Package - M800</option>
+        <option>School Group - M100 per child</option>
+        <option>Photography Session - M300</option>
+      </select>
+
+      <label>Number of People</label>
+      <input type="number" name="Quantity" min="1" value="1">
+
+      <label>Preferred Date</label>
+      <input type="date" name="Date">
+
+      <label>Preferred Time</label>
+      <select name="Time">
+        <option>9:00 AM</option>
+        <option>10:30 AM</option>
+        <option>12:00 PM</option>
+        <option>2:00 PM</option>
+        <option>3:30 PM</option>
+      </select>
+
+      <label>Special Requests or Notes</label>
+      <textarea name="Notes" rows="3" placeholder="Example: First-time riders, children ages, etc."></textarea>
+
+      <button type="submit">Send Booking Request</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>© 2026 Bokamoso Hoof Adventure Park | Book your adventure today</p>
+</footer>
+</body>
+</html>
